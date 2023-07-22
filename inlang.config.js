@@ -11,7 +11,7 @@ export async function defineConfig(env) {
 	);
 
 	const { default: sdkPlugin } = await env.$import(
-		'https://cdn.jsdelivr.net/npm/@inlang/sdk-js-plugin@0.6.6/dist/index.js'
+		'https://cdn.jsdelivr.net/npm/@inlang/sdk-js-plugin@0.9.2/dist/index.js'
 	);
 
 	// const { default: ideExtensionPlugin } = await env.$import(
